@@ -29,6 +29,14 @@
   }
 }
 
+.edited{
+  display: block;
+  margin-top: -3rem;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--gray-400);
+}
+
 .post{
   h2{
     font-size:2.25rem;
@@ -48,6 +56,29 @@
     li{
       margin: 0.5rem 0;
     }
+  }
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--gray-100);
+  h3{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+  }
+  a{
+    color: var(--pink);
+    font-weight: 600;
+  }
+  div{
+    padding-top: 3rem;
+  }
+  div + div {
+    text-align: right;
   }
 }
   
